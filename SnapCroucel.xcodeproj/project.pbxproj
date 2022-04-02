@@ -11,6 +11,9 @@
 		4315FB4427F797670086168B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4315FB4327F797670086168B /* ContentView.swift */; };
 		4315FB4627F797690086168B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4315FB4527F797690086168B /* Assets.xcassets */; };
 		4315FB4927F797690086168B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4315FB4827F797690086168B /* Preview Assets.xcassets */; };
+		4315FB5227F797AC0086168B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4315FB5127F797AC0086168B /* Home.swift */; };
+		4315FB5627F799010086168B /* SnapCaroucel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4315FB5527F799010086168B /* SnapCaroucel.swift */; };
+		4315FB5827F79AD50086168B /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4315FB5727F79AD50086168B /* post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4315FB4327F797670086168B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4315FB4527F797690086168B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4315FB4827F797690086168B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4315FB5127F797AC0086168B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4315FB5527F799010086168B /* SnapCaroucel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCaroucel.swift; sourceTree = "<group>"; };
+		4315FB5727F79AD50086168B /* post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		4315FB4027F797670086168B /* SnapCroucel */ = {
 			isa = PBXGroup;
 			children = (
+				4315FB5027F797810086168B /* view */,
+				4315FB4F27F7977A0086168B /* Model */,
 				4315FB4127F797670086168B /* SnapCroucelApp.swift */,
 				4315FB4327F797670086168B /* ContentView.swift */,
 				4315FB4527F797690086168B /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				4315FB4827F797690086168B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4315FB4F27F7977A0086168B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4315FB5727F79AD50086168B /* post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4315FB5027F797810086168B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4315FB5127F797AC0086168B /* Home.swift */,
+				4315FB5527F799010086168B /* SnapCaroucel.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4315FB4427F797670086168B /* ContentView.swift in Sources */,
+				4315FB5827F79AD50086168B /* post.swift in Sources */,
+				4315FB5627F799010086168B /* SnapCaroucel.swift in Sources */,
+				4315FB5227F797AC0086168B /* Home.swift in Sources */,
 				4315FB4227F797670086168B /* SnapCroucelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
